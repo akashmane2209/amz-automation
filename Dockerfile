@@ -10,6 +10,9 @@ WORKDIR /usr/app
 COPY . .
 
 FROM selenium/standalone-firefox:128.0
+WORKDIR /usr/app
+COPY . .
+FROM selenium/standalone-chrome:127.0.6533.72
 
 WORKDIR /usr/app
 

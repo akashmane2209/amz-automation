@@ -47,7 +47,6 @@ jobs:
           # attachment file path:
           attachments: /usr/app/target/extent-reports/index.html
           # Optional content type (default is text/plain):
-          content_type: text/html
           body: Automation workflow for ${{github.repository}} completed successfully!
 
   # notify_status_on_slack:
