@@ -23,4 +23,4 @@ ENV PATH="${JAVA_HOME}/bin:${MAVEN_HOME}/bin:${PATH}"
 # Switch to non-root user
 USER seluser
 
-CMD ["mvn", "clean", "test", "-DBrowser=Fireforx", "-DBrowserMode=Headless", "-DsuiteXmlFile=/src/test/resources/Amazon.xml"]
+CMD ["mvn", "clean", "test", "-DBrowser=Fireforx", "-DBrowserMode=Headless", "-DsuiteXmlFile=/usr/app/src/test/resources/Amazon.xml"]
